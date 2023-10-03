@@ -13,18 +13,16 @@
 
 ✨But remember, tools are only as useful as the craftsman wielding them!
 
-## 🔧 Tools I've Worked With 
+## 🔧 Tools I know well, just not singing praise for.
 
 * **TypeScript** - Hey, it helps keep the lights on! It might just be a bandage over Javascript's legacy issues, but I have to admit, it does its job. 
+
 
 ## 🚀 Current Projects 
 
 At present, I'm navigating through Stephen Ulibarri's Unreal Engine 5 C++ Multiplayer Shooter course. Catch me live-stream the development journey on my [twitch](https://www.twitch.tv/hadrianfocus) channel. 
 
 Also, be sure to check out my [YouTube](https://youtube.com/@HadrianBuilds) and follow me on [Twitter](https://twitter.com/intrepidshape) for updates.
-
-## 📊 GitHub Stats and Badges
-(Link your GitHub stats, badges, and achievements here)
 
 #
 🙏 Thanks for stopping by!
