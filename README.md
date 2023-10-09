@@ -17,13 +17,6 @@
 
 * **TypeScript** - Hey, it helps keep the lights on! It might just be a bandage over Javascript's legacy issues, but I have to admit, it does its job. 
 
-
-## 🚀 Current Projects 
-
-At present, I'm navigating through Stephen Ulibarri's Unreal Engine 5 C++ Multiplayer Shooter course. Catch me live-stream the development journey on my [twitch](https://www.twitch.tv/hadrianfocus) channel. 
-
-Also, be sure to check out my [YouTube](https://youtube.com/@HadrianBuilds) and follow me on [Twitter](https://twitter.com/intrepidshape) for updates.
-
 #
 🙏 Thanks for stopping by!
 Don't hesitate to reach out to me if you'd like to collaborate or simply have a chat. 🍻
