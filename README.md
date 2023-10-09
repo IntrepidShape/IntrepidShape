@@ -20,3 +20,5 @@
 #
 🙏 Thanks for stopping by!
 Don't hesitate to reach out to me if you'd like to collaborate or simply have a chat. 🍻
+
+Hello@intrepidshape.com
