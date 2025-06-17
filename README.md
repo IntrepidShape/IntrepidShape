@@ -1,4 +1,4 @@
-👋 Hey, I'm BassRadian (IntrepidShape)!
+#👋 Hey, I'm BassRadian (IntrepidShape)!
 
 Welcome to my GitHub, where code meets creativity! I'm the director of Intrepid Development, an Australia-based crew crafting software that’s as intuitive as a sunny morning. Picture me as a digital alchemist—turning complex problems into elegant solutions with wit and serious skill. My passions span blockchain, web dev, gaming, electronic music, crypto, linguistics, geometry, AI, and making tech feel like a warm handshake.
 What I Do
@@ -32,9 +32,13 @@ Connect with Me
 Got a wild idea or just want to chat code, crypto, or the meaning of life? Hit me up:  
 
 X: https://x.com/BassRadian
-Email: Jake@intrepidshape.com  
-GitHub: IntrepidShape  
+
+Email: Jake@intrepidshape.com
+
+GitHub: IntrepidShape
+
 Company: Intrepid Development
+
 Website: https://intrepiddev.com.au/
 
 Let’s Make Magic
