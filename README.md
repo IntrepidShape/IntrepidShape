@@ -1,83 +1,30 @@
-# Intrepid Development
+# Jake Colson
 
-**Solidity studio. Audit-ready smart contracts on Ethereum and PulseChain.**
+**Senior software engineer — low-latency & systematic-quant systems · audit-ready Solidity.**
+Founder of [Intrepid Development](https://intrepiddev.com.au) (Perth, Australia). **Available for contract — remote or Perth.**
 
-Founder-led from Perth, AU. Established 2021 (Pty Ltd). Building on EVM since the early days, on PulseChain since launch. We engage selectively — the work we accept fits the specialism, the rest we refer.
+I work at two hard edges: the **low-latency hot path** — execution systems in Zig, deterministic and memory-tight, with FPGA acceleration — and **audit-ready Solidity** (Foundry invariant + fuzz, formal methods, EVM). Alongside, I design and validate **systematic trading strategies** with real statistical discipline. My deepest systems work is under NDA; what's public below is the engineering rigor I bring to it, shown in the open.
 
-[intrepiddev.com.au](https://intrepiddev.com.au) · [Jake@intrepiddev.com.au](mailto:Jake@intrepiddev.com.au)
-
----
-
-## What the studio does
-
-**Specialism — Solidity & smart contracts.** Audit-ready Solidity on Ethereum and PulseChain. Foundry-tested, formally specified, deployment-script complete. Day rate A$2,400. Audit suite from A$45k–A$220k.
-
-**Secondary practices** — full-stack software engineering, websites, and AI infrastructure. We take these engagements when they're a fit; we refer when they aren't.
+📫 [intrepiddev.com.au](https://intrepiddev.com.au) · [jake@intrepiddev.com.au](mailto:jake@intrepiddev.com.au)
 
 ---
 
-## Open source
+### Selected open source — the same code I ship in production
 
-The packages we use ourselves to ship dApps in production. MIT-licensed. Same code we deploy.
+| Project | What it is | Why it's hard |
+|---|---|---|
+| **[elm-web3](https://github.com/IntrepidShape/elm-web3)** | Type-safe EVM interaction for Elm — wallet & transaction state machines, opaque validated types (Address / TxHash / ChainId / BigInt), **a pure-Elm Solidity ABI encoder with zero JS runtime dependencies**. Published to the Elm package registry, MIT. | Misusing a `TxHash` where an `Address` is expected is a **compile error**. Core types and codecs are backed by **Lean 4 proofs + TLC-model-checked TLA+ state machines** — with a [coverage doc](https://github.com/IntrepidShape/elm-web3/blob/main/proofs/COVERAGE.md) that's honest about what's proved, what's model-checked, and what's still open. |
+| **[pre-audit-hardening-pack](https://github.com/IntrepidShape/pre-audit-hardening-pack)** | What an auditor wants to see on day one — 70-item readiness checklist, threat-model template, Foundry invariant skeleton, CI gates. MIT. | Encodes an audit-ready methodology as a forkable template — invariant-first, fail-on-medium static analysis, ≥90% coverage gates. |
+| **[elm-web3-ui](https://github.com/IntrepidShape/elm-web3-ui)** | 38 composable dApp UI primitives — wallet, transaction, balance, signing, staking, ve-lock, gauge, bonding curve. Published, MIT. | Pure functions of their inputs — no internal `Msg`, no hidden state. The compiler forces exhaustive handling of every wallet/tx state. |
+| **[dapp-gen](https://github.com/IntrepidShape/dapp-gen)** | Verified contract → forkable, type-safe Elm dApp in one command. | Generates the whole type-safe bridge from an on-chain verified contract. |
 
-| Package | What it is |
-|---|---|
-| [`intrepidshape/elm-web3`](https://github.com/IntrepidShape/elm-web3) | Type-safe EVM blockchain interaction for Elm. Wallet state machine with EIP-6963 multi-wallet discovery, transaction lifecycle with revert decoding, opaque validated types (Address, TxHash, ChainId, BigInt), ABI codegen from Foundry/Hardhat. Zero npm runtime deps. |
-| [`intrepidshape/elm-web3-ui`](https://github.com/IntrepidShape/elm-web3-ui) | HTML view primitives for elm-web3 — wallet, transaction, address, balance, typed inputs, signing, gas estimate, pending overlay, chain gate. No internal Msg, no subscriptions. |
+### Under NDA — walkthrough available on request
+- **Low-latency quantitative / arbitrage execution** — Zig + FPGA, deterministic hot path, memory-tight.
+- **Systematic trading system** — deflated-Sharpe + walk-forward validation, survivorship-corrected (Carver / López de Prado methodology); currently paper-traded behind a regime gate.
 
-`elm install intrepidshape/elm-web3` · `elm install intrepidshape/elm-web3-ui`
-
-Both are distilled from production work and continue to ship with the contracts they front. If you're using them and want help wiring up the contracts on the other side of the bridge, the door is open.
-
----
-
-## Read before you reach out
-
-Net give-aways. Use them, fork them, build with them.
-
-- **[Pre-Audit Hardening Pack](https://intrepiddev.com.au)** — 70-item readiness checklist + threat-model template + Foundry invariant skeleton + NatSpec template + sample CI gates. What an auditor wants to see on day one.
-- **[PulseChain Solidity Notes](https://intrepiddev.com.au)** — porting handbook for EVM contracts coming to PulseChain. Gas pricing, oracle availability, bridge risk, fork-block quirks, ecosystem tooling gaps, deployment checklist.
+### Stack
+`Zig` · `Solidity` · `TypeScript` · `Go` · `Rust` · `Python` · `Haskell` · `Elm` · `Foundry` · `Lean 4` · `TLA+` · `Cloudflare Workers` · `AWS` · `Linux`
 
 ---
 
-## How we engage
-
-Every engagement starts with a paid **5-Day Diagnostic** at A$1,800 (ex-GST). The diagnostic produces a written diagnosis, a prescription, and a three-option engagement proposal. Credit-forward — the A$1,800 is net-zero if you proceed.
-
-- Fixed-fee, not hourly.
-- 40 / 30 / 30 milestone schedule (deposit / mid-point / delivery).
-- Three-option proposals presented high → low → middle.
-- Engagement letter is one page; we countersign first.
-- Out-of-scope work is a change order, priced separately, never free.
-- 30-day post-launch warranty on every project. Retainer slots from A$3,950/month.
-
-[Pricing](https://intrepiddev.com.au/pricing) · [Terms of Service](https://intrepiddev.com.au/terms)
-
----
-
-## Selected production work
-
-- **DeFi automation retainer** — bespoke Solidity systems and TypeScript bots on Ethereum and PulseChain. Trading, liquidity, position management. Hardened, full coverage. 2024–ongoing.
-- **Cost-Basis Tracker** — production-grade DeFi cost-basis and tax-position dashboard. Indexed wallet activity, weighted average cost, realised P&L, exportable reports. 2025.
-- **[gamejam-tau](https://gamejam-tau.vercel.app)** — live event hub for the May 2026 game jam. Mission timeline, countdown, leaderboard, ticker — built and shipped same day.
-- **[intrepiddev.com.au](https://intrepiddev.com.au)** — this studio's site. Astro 5, Mission Control aesthetic, Vercel.
-
-Full portfolio at [intrepiddev.com.au/portfolio](https://intrepiddev.com.au/portfolio).
-
----
-
-## Out of scope
-
-- RFP-driven processes. We decline.
-- Free strategy sessions, "thoughts" emails, speculative scopes, capability decks.
-- Hourly billing.
-- Mobile app development.
-- Engagements where the firm isn't talking to the decision-makers directly.
-
----
-
-## Reach out
-
-The right way in is a **30-minute fit conversation** — situation, target outcome, decision-makers, timing, criteria. From there, if there's fit, we send a paid Diagnostic Engagement Letter.
-
-[Book a fit conversation](https://intrepiddev.com.au/book) · [Open the brief](https://intrepiddev.com.au/contact) · [Jake@intrepiddev.com.au](mailto:Jake@intrepiddev.com.au)
+**Contracting through Intrepid Development Pty Ltd — day-rate, invoiced directly. Available now.**
