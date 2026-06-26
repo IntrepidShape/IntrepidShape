@@ -1,9 +1,9 @@
 # Jake
 
-**Senior software engineer — low-latency & systematic-quant systems · audit-ready Solidity.**
+**Senior software engineer — audit-ready Solidity, smart-contract audits & type-safe Web3 (Elm).** Also: low-latency & systematic-quant systems.
 Founder of [Intrepid Development](https://intrepiddev.com.au) (Perth, Australia). **Available for contract — remote or Perth.**
 
-I work at two hard edges: the **low-latency hot path** — execution systems in Zig, deterministic and memory-tight, with FPGA acceleration — and **audit-ready Solidity** (Foundry invariant + fuzz, formal methods, EVM). Alongside, I design and validate **systematic trading strategies** with real statistical discipline. My deepest systems work I keep private and show on a call; what's public below is the engineering rigour I bring to it, in the open.
+I specialise in **audit-ready Solidity** — Foundry invariant + fuzz, threat modelling, the hardening an auditor wants to see on day one — and **type-safe Web3 frontends in Elm**, published to the package registry with formal-methods backing. I also build **low-latency execution in Zig** and design **systematic trading strategies**; that deeper systems work I keep private and show on a call. What's public below is the rigour I bring to it, in the open.
 
 📫 [intrepiddev.com.au](https://intrepiddev.com.au) · [jake@intrepiddev.com.au](mailto:jake@intrepiddev.com.au)
 🔬 **Systematic engine — method & approach:** [intrepid-quant.vercel.app](https://intrepid-quant.vercel.app) · live output on request
@@ -24,7 +24,7 @@ I work at two hard edges: the **low-latency hot path** — execution systems in 
 - **Systematic trading system** — deflated-Sharpe + walk-forward validation, survivorship-corrected (Carver / López de Prado methodology); currently paper-traded behind a regime gate. Live engine output on request.
 
 ### Stack
-`Zig` · `Solidity` · `TypeScript` · `Go` · `Rust` · `Python` · `Haskell` · `Elm` · `Foundry` · `Lean 4` · `TLA+` · `Cloudflare Workers` · `AWS` · `Linux`
+`Solidity` · `Foundry` · `Elm` · `Lean 4` · `TLA+` · `TypeScript` · `EVM` · `Zig` · `Go` · `Rust` · `Python` · `Haskell` · `Cloudflare Workers` · `AWS` · `Linux`
 
 ---
 
