@@ -1,4 +1,4 @@
-# Jake Colson
+# Jake
 
 **Senior software engineer — low-latency & systematic-quant systems · audit-ready Solidity.**
 Founder of [Intrepid Development](https://intrepiddev.com.au) (Perth, Australia). **Available for contract — remote or Perth.**
