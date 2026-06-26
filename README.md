@@ -3,7 +3,7 @@
 **Senior software engineer — low-latency & systematic-quant systems · audit-ready Solidity.**
 Founder of [Intrepid Development](https://intrepiddev.com.au) (Perth, Australia). **Available for contract — remote or Perth.**
 
-I work at two hard edges: the **low-latency hot path** — execution systems in Zig, deterministic and memory-tight, with FPGA acceleration — and **audit-ready Solidity** (Foundry invariant + fuzz, formal methods, EVM). Alongside, I design and validate **systematic trading strategies** with real statistical discipline. My deepest systems work is under NDA; what's public below is the engineering rigor I bring to it, shown in the open.
+I work at two hard edges: the **low-latency hot path** — execution systems in Zig, deterministic and memory-tight, with FPGA acceleration — and **audit-ready Solidity** (Foundry invariant + fuzz, formal methods, EVM). Alongside, I design and validate **systematic trading strategies** with real statistical discipline. My deepest systems work I keep private and show on a call; what's public below is the engineering rigour I bring to it, in the open.
 
 📫 [intrepiddev.com.au](https://intrepiddev.com.au) · [jake@intrepiddev.com.au](mailto:jake@intrepiddev.com.au)
 🔬 **Systematic engine — method & approach:** [intrepid-quant.vercel.app](https://intrepid-quant.vercel.app) · live output on request
