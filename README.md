@@ -6,7 +6,7 @@ Founder of [Intrepid Development](https://intrepiddev.com.au) (Perth, Australia)
 I specialise in **audit-ready Solidity** — Foundry invariant + fuzz, threat modelling, the hardening an auditor wants to see on day one — and **type-safe Web3 frontends in Elm**, published to the package registry with formal-methods backing. I also build **low-latency execution in Zig** and design **systematic trading strategies**; that deeper systems work I keep private and show on a call. What's public below is the rigour I bring to it, in the open.
 
 📫 [intrepiddev.com.au](https://intrepiddev.com.au) · [jake@intrepiddev.com.au](mailto:jake@intrepiddev.com.au)
-🔬 **Systematic engine — method & approach:** [intrepid-quant.vercel.app](https://intrepid-quant.vercel.app) · live output on request
+🔬 **Systematic engine — method & approach:** [intrepiddev.com.au/quant](https://intrepiddev.com.au/quant) · live output on request
 
 ---
 
